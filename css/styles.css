@@ -1,6 +1,5 @@
 .container{
    display: block;
    text-align: left;
-   border:2px solid white;
    float:right;
 }
