@@ -7,6 +7,7 @@ function findOut(){
   
   // Busines logic
   // console.log gives the string despite the result
+  // the alert helps to pop the feedback to the client
    if (a===b && b===c && c === a){
      
     alert("Equilateral triangle");
