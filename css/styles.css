@@ -3,6 +3,8 @@
    display:block;
    flex-direction: row;
    padding-bottom: 5%;
+   font-family: 'Courgette', cursive;
+   text-decoration-line: underline
 }
 /* floating the second icon to row */
 .float-right{
