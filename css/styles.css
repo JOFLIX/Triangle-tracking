@@ -1,5 +1,14 @@
-.container{
-   display: block;
-   text-align: left;
-   float:right;
+.jumbotron{
+   text-align: center;
+}
+/* floating the second icon to row */
+.float-right{
+   float:fright;
+}
+#rowing{
+   display:block;
+   flex-direction:row;
+}
+#floatleft{
+   float: left;
 }
