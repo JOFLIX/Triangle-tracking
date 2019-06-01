@@ -1,12 +1,14 @@
 //*************************************************
 function findOut(){
-  var a=parseInt(document.getElementById('a').value);
-  var b=parseInt(document.getElementById('b').value);
-  var c=parseInt(document.getElementById('c').value);
+  var a=parseFloat(document.getElementById('a').value);
+  var b=parseFloat(document.getElementById('b').value);
+  var c=parseFloat(document.getElementById('c').value);
 
   
-  
+  // Busines logic
+  // console.log gives the string despite the result
    if (a===b && b===c && c === a){
+     
     alert("Equilateral triangle");
     console.log(confirm("Superb! Willing to continue? :)"))
   }
@@ -22,7 +24,8 @@ function findOut(){
     alert("Isosceles");
     console.log(confirm("Superb! Willing to continue? :)"))
  
-  }else if (a !== b && b !== c && a !== c && a + b > c && b + c > a){
+  }else if (a !== b && b !== c && a !== c && 
+    a + b > c && b + c > a){
     alert("scalene");
     console.log(confirm("Superb! Willing to continue? :)"))
  
