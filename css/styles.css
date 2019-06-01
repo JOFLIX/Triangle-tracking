@@ -4,7 +4,7 @@
    flex-direction: row;
    padding-bottom: 5%;
    font-family: 'Courgette', cursive;
-   text-decoration-line: underline
+   text-decoration-line: underline;
 }
 /* floating the second icon to row */
 .float-right{
@@ -21,4 +21,8 @@
 #card{
    padding-top: 8%;
    padding-left: 4%;
+}
+
+.container{
+   background-color: lightblue;
 }
