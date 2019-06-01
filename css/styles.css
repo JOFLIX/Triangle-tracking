@@ -1,5 +1,7 @@
 .jumbotron{
    text-align: center;
+   display:block;
+   flex-direction: row;
 }
 /* floating the second icon to row */
 .float-right{
