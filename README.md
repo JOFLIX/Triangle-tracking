@@ -14,7 +14,7 @@ There were no bugs at the time of release,but if you should come across any,feel
 This web  was typed in HTML, CSS for styling javascript for backend.
 ## BDD
   |Behaviour                  |Input numbers|Output result     |
-  |___________________________|_____________|__________________|
+  |---------------------------|-------------|------------------|
   |All sides equal            |6,6,6        |Equilateral       |
   |Two sides equal            |6,6,4        |Isosceles         |
   |No sides equal to the other|4,5,6        |Scalene           |
