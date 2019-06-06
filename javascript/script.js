@@ -25,9 +25,8 @@ function findOut(){
     alert("Isosceles");
     console.log(confirm("Superb! Willing to continue? :)"))
  
-  }else if (a !== b && b !== c && a !== c &&  a + b > c && b + c > a){
-   
-    alert("scalene");
+  }else if(a!==b && b!==c && c!==a && a + c>b && b + c >a && a+b>c){
+    alert("scalene triangle");
     console.log(confirm("Superb! Willing to continue? :)"))
  
   }else if (a + b <= c) {
